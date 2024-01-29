@@ -1,6 +1,15 @@
-# Keep-Me-Awake Script 🌟
+<div align="center">
+<a href="https://github.com/NicoFilips/keep-me-awake/">
+  <img src="https://github.com/NicoFilips/keep-me-awake/assets/35654361/e3b2720d-a225-4528-8252-14b7faeb79e4" alt="Logo" width="200" height="200">
+</a>
+  
+<blockquote>
+  <p>Source: DALL-E 3</p>
+</blockquote>
+
+# Keep-Me-Awake 🌟
 ## Overview ✨
-The Keep-Me-Awake script is a cross-platform PowerShell script designed to keep your computer awake by periodically simulating an input. This is especially useful for preventing your computer from entering sleep mode during extended periods of inactivity, such as during presentations, taking handwritten notes, or phone calls. Just because your currently not focused using your PC you don't want your PC to turn your monitors off. In a lot of cases, the energy settings are regulated by the companys domain, so this is a workaround to fix the issue.  🚀
+The Keep-Me-Awake script is a cross-platform PowerShell script designed to keep your computer awake by periodically simulating an input. This is especially useful for preventing your computer from entering sleep mode during extended periods of inactivity, such as during presentations (outside of PowerPoint), taking handwritten notes, or phone calls. Just because you're currently not focused on using your PC doesnt mean you want your PC automatically turn off your monitors. In a lot of cases, the energy settings are regulated by the companys domain, so this is a workaround to fix the issue.  🚀
 
 ## PowerShell 7 and .NET Core 🌐
 PowerShell 7 is built on .NET Core, allowing it to run across multiple platforms including Windows, Linux, and macOS. This cross-platform capability ensures that scripts and modules work consistently across different operating systems. 🖥️💻🍏
