@@ -43,17 +43,17 @@ Open a terminal window.
 Execute the following commands:
 
 ´´´
-# Download the Microsoft repository GPG key
+Download the Microsoft repository GPG key
 wget -q "https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb"
 ´´´
 
 ´´´
-# Add the repository
+Add the repository
 sudo dpkg -i packages-microsoft-prod.deb
 ´´´
 
 ´´´
-# Install PowerShell
+Install PowerShell
 sudo apt-get update; sudo apt-get install -y powershell
 ´´´
 Clone the Repository (or download the files):
@@ -61,9 +61,10 @@ Clone the Repository (or download the files):
 ´´´
 git clone https://github.com/yourusername/keep-me-awake.git
 ´´´
+
 Navigate to the Directory:
 
-bash
+```
 Copy code
 cd path/to/keep-me-awake
 Usage 🚀
@@ -76,9 +77,7 @@ With custom values:
 powershell
 Copy code
 pwsh ./keep-me-awake.ps1 -Key "F13" -Interval 120
-
-TODO:
-Section automating it with windows and linux (autostart)
+```
 
 ## Support and Contributions 🤝
 Feedback, suggestions, and contributions are always welcome! Feel free to report issues or create pull requests. 🌟
