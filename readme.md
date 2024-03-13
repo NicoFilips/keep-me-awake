@@ -8,6 +8,9 @@
 </blockquote>
 
 # Keep-Me-Awake 🌟
+
+</div>
+
 ## Overview ✨
 The Keep-Me-Awake script is a cross-platform PowerShell script designed to keep your computer awake by periodically simulating an input. This is especially useful for preventing your computer from entering sleep mode during extended periods of inactivity, such as during presentations (outside of PowerPoint), taking handwritten notes, or phone calls. Just because you're currently not focused on using your PC doesnt mean you want your PC automatically turn off your monitors. In a lot of cases, the energy settings are regulated by the companys domain, so this is a workaround to fix the issue.  🚀
 
@@ -35,6 +38,12 @@ Navigate to the Directory:
 ´´´
 cd path/to/keep-me-awake
 ´´´
+
+You then can just easily create a new task in the windows taskmanager to run your script on startup. It can be run windowless so you don't even notice it anymore, but it still can be closed via your taskmanager
+
+Trigger: - On Startup -
+Action: Startup Program: "C:\Program Files\WindowsApps\Microsoft.PowerShell_7.x.x.x_x64__individual_Path_to_PowerShell7\pwsh.exe"
+Arguments: -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Program Files\keep-alive\keep-me-awake.ps1" -Key "F13" -Interval 120
 
 # Linux 🐧
 
